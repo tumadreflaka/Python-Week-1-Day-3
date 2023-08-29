@@ -39,6 +39,60 @@ print(f"In 20 years, {name} will be {age + 20} years old.")
 
 
 ###########################String Practice##################################
+# Syntax is the way we write down
+# print("Hello World")
+# Name = "John"
+# In other languages, this is different
+# In Javascript for example, you define 
+# Variables with let or const or var
+# In Python you just give your variables a 
+# Name and then define it with a value
+
+word = "Python is cool and stuff OOGA BOOGA"
+print(word)
+print(word[5])
+print(word[8])
+print(word[10])
+print(word[-1])
+print(word[-2])
+print(word[-3])
+
+# STRING SLICING
+print(word[10:14])
+print(word[19:24])
+print(word[0:6])
+print(word[7:9])
+print(word[-1:-6])
+print(word[-1:-6])
+print(word[ :0])
+print(len(word))
+# print(len(xxx)) ---> # of words
+
+print(word[:13])
+print(word[13:])
+print(word.find("is"))
+# Finds the index of a substring
+print(word.upper())
+print(word.capitalize())
+# This capitalizes the first word
+cool = word[10:14]
+print(cool.capitalize())
+print(word.replace("Python", "javascript"))
+print(word.replace("cool", "ugly"))
+
+######################## CHALLENGE ##########################
+
+blue_beetle_summary = "Jaime Reyes suddenly finds himself in possession of an ancient relic of alien biotechnology called the Scarab. When the Scarab chooses Jaime to be its symbiotic host, he's bestowed with an incredible suit of armor that's capable of extraordinary and unpredictable powers, forever changing his destiny as he becomes the superhero Blue Beetle."
+print(len(blue_beetle_summary))
+print(blue_beetle_summary.upper())
+print(blue_beetle_summary.lower())
+print(blue_beetle_summary.replace("Blue" , "Red"))
+print(blue_beetle_summary.find("Beetle"))
+print(blue_beetle_summary[334:340])
+print(blue_beetle_summary[::-1])
+
+##################### END CHALLENGE ##########################
+
 # String Practice #1: try this in repl.it
 # Define a string containing your full name.
 # Print the first 3 letters of your name using string slicing.
